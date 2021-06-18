@@ -1,0 +1,66 @@
+:root {
+  --color-primary: #1b1c1d;
+  --color-secondary: #ffffff;
+  --color-accent: #db2828;
+  --color-accent2: #f2711c;
+  --color-headings: #212121;
+  --color-body: #212121;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+nav {
+  background-color: var(--color-primary);
+}
+
+.hero-background {
+  height: 80vh;
+  background-color: var(--color-primary);
+  position: relative;
+}
+
+.hero-text {
+  color: var(--color-secondary);
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about {
+  position: relative;
+}
+.about-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 24rem;
+  width: 16rem;
+}
+
+.about-text {
+  font-size: 0.8rem;
+}
+
+.quote {
+  background-color: var(--color-primary);
+  color: white;
+  height: 10rem;
+  position: relative;
+}
+
+.quote-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.color-pallete-primary {
+  color: var(--color-primary);
+}
